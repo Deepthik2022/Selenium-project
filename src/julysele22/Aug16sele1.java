@@ -23,7 +23,11 @@ public class Aug16sele1 {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("firstname")));
 		WebElement frstName = driver.findElement(By.name("firstname"));
+<<<<<<< HEAD
 		frstName.sendKeys("Lenin");
+=======
+		frstName.sendKeys("DeepthiK");
+>>>>>>> 6c5260e8c5832555b7c4224802647c0d6afac818
 		WebElement lastName = driver.findElement(By.name("lastname"));
 		lastName.sendKeys("K");
 		}
