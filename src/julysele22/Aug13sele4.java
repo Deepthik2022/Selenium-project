@@ -19,8 +19,8 @@ public class Aug13sele4 {
 		btn.click();
 		Thread.sleep(2000l);
 		Alert a=driver.switchTo().alert();
-		a.accept();
-		//a.dismiss();
+		//a.accept();
+		a.dismiss();
 	}
 
 }
